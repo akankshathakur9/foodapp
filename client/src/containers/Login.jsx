@@ -86,7 +86,7 @@ const Login = () => {
                     {!isSignUp ? (
                      <p>Doesn't have an account:{" "}
                       <motion.button>
-                         {...buttonClick} 
+                         {buttonClick} 
                          className="text-red-400 underline cursor-pointer bg-transparent"
                          onClick={() => setIsSignUp}
                      Create one
@@ -96,7 +96,7 @@ const Login = () => {
                       <p>
                         Already have an account:{" "}
                       <motion.button>
-                         {...buttonClick}
+                         {buttonClick}
                           className="text-red-400 underline cursor-pointer bg-transparent"
                           onClick={() => setIsSignUp}
 

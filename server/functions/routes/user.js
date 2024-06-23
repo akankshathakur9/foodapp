@@ -5,7 +5,10 @@ router.get("/", (req, res) => {
 });
 
 router.get("/jwtVerification", async (req, res) => {
-  res.send( "jwt verification");
+  if(!req.headers.authorization){
+    return res.status(500).send({msg: "Token not Found"});
+
+  }
 });
 
 module.exports = router;

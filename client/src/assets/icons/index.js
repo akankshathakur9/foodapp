@@ -21,7 +21,8 @@ import  { HiCurrencyRupee }  from "react-icons/hi2";
 export {
     FaEnnvelope,
     FaLock,
-    FcGoogle, 
+    FcGoogle,
+    faArrowLeft,
     MdShoppingCart,
     MdLogOut, 
     MdSearch,
@@ -35,7 +36,6 @@ export {
     IoBasket,
     BiChevronsRight,
     FcClearFilters,
-    faArrowLeft,
     HiCurrencyRupee,
    
 
